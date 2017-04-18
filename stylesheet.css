@@ -63,7 +63,7 @@ body{
 }
 .content{
 	//max-width: 1200px;
-	margin: 0;
+	margin: 0 auto;
 	//background-color: red;
 }
 .Logo{
@@ -124,7 +124,7 @@ select>option{
 .menu>span>ul>li{
 	text-align: center;
 	display: inline-block;
-	margin: 0.25em 0 0.25em 1.5em;
+	margin: 1.85% 0 1.85% 0.719em;
 }
 .menu>span>ul>li>a{
 	color: #969696;
@@ -244,3 +244,6 @@ select>option{
 	//padding: 0;
 	//background: white;
 }
+
+
+
