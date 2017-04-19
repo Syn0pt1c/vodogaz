@@ -1,46 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/*2.21em=35px=1.82%
-19.2px=1%
-15px=1em
-1px=0.05%
-*/
-
-
-.callbacks_container {
-  position: relative;
-  float: left;
-  width: 100%;
-  }
-.callbacks_container>ul>li>img{
-	width: 1200px;
-	height: 600px;
-}
-.callbacks_nav {
-  position: absolute;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 52%;
-  left: 0;
-  opacity: 0.7;
-  z-index: 3;
-  text-indent: -9999px;
-  overflow: hidden;
-  text-decoration: none;
-  height: 61px;
-  width: 38px;
-  background: transparent url("ResponsiveSlides.js-master/demo/themes/themes.gif") no-repeat left top;
-  margin-top: -45px;
-  }
-
-.callbacks_nav:active {
-  opacity: 1.0;
-  }
-
-.callbacks_nav.next {
-  left: auto;
-  background-position: right top;
-  right: 0;
-  }
+/*2.21em=35px=1.82%*/
 
 body{
 	font-family: sans-serif;
@@ -62,15 +22,15 @@ body{
 	padding: 1.85%;
 }
 .content{
-	//max-width: 1200px;
-	margin: 0 auto;
+	margin: 0;
 	//background-color: red;
 }
 .Logo{
 	float: left;
 	//display: inline-block;
-	width: 595px;
-	height: 62px;
+	width: 95%;
+	max-width: 312px;
+	//height: 62px;
 }
 /*.Category{
 	width: 283px;
@@ -84,7 +44,8 @@ form{
 	float: left;
 	margin-top: 10px;
     vertical-align: top;
-	width: 40%;
+    max-width: 800px; 
+	width: 95%;
 	//min-width: 180px;
 	font-size: 0;
 	padding-left: 1%;
@@ -124,7 +85,7 @@ select>option{
 .menu>span>ul>li{
 	text-align: center;
 	display: inline-block;
-	margin: 1.85% 0 1.85% 0.719em;
+	margin: 0.25em 0;
 }
 .menu>span>ul>li>a{
 	color: #969696;
@@ -141,35 +102,54 @@ select>option{
 	padding-left: 0.5em;
 	margin: auto;
 }
+
+
+
+.callbacks_container {
+  position: relative;
+  float: left;
+  width: 100%;
+  }
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 52%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("ResponsiveSlides.js-master/demo/themes/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  }
+
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+
+
+
 .squares{
   //background-color: blue;
-	margin: 0 auto;
 	font-size: 0px;
 	list-style: none;
-	padding: 0 0 0 0;
+	padding-left: 0;
 	text-align: center;
-}
-.squares>li>a>{
-	display: inline-block;
-
-}
-.card{
-	background: red;
-	//background-image: url(images\card217x217.svg);
-	width: 217px;
-	height: 217px;
-}
-.item{
-	background: blue;
-	//background-image: url(images\toilet\olympia-s-type.png);
-	width: 150px;
-	height: 150px;
-	margin: 0 auto;
-	padding: 0 auto;
 }
 .squares>li{
 	//max-width: 273px;
-	width: 18.5%;
+	width: 23.6%;
 	display: inline-block;
 	padding: 1.85% 1.85% 1.85% 0;
 }
@@ -220,14 +200,18 @@ select>option{
 	margin-left: 2%;
 }
 .contacts img{
-	width: 4%;
-	min-width: 20px;
+	width: 1.8em;
+	height: 1.8em;
+	//min-width: 20px;
+	vertical-align: bottom;
 }
 .contacts a{
-	//background: white;
-	//vertical-align: bottom;
+	display: inline-block;
+	//background: red;
+	vertical-align: bottom;
 	//margin-bottom: -30px;
 	margin-right: 1em;
+	//height: 1.8em;
 }
 .contacts p{
 	display: inline-block;
@@ -239,8 +223,8 @@ select>option{
 }
 .contacts li{
 	//display: inline-block;
-	line-height: 1.5em;
-	margin: 0.15em;
+	line-height: 1.8em;
+	margin: 0.5em;
 	//padding: 0;
 	//background: white;
 }
